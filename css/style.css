@@ -1,0 +1,391 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Navbar*/
+nav{
+    width: 100%;
+    padding-top:30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0);
+} 
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+nav #nav-brand{
+    padding: 60px;
+    padding-top: 5px;
+    display: block;
+    width:30%;
+    float: left;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+
+nav #nav-brand:hover{
+    color: white;
+}
+
+nav ul{
+    width: 70%;
+    float: right;
+    list-style: none;
+    text-align: right;
+    box-sizing: border-box;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color:rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: white;
+}
+
+nav ul li a{
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7);
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+
+ /*Header*/
+ header{
+     width: 100%;
+     height: 100vh;
+     background: linear-gradient(rgba(92,77,66,0.7), rgba(92,77,66,0.7)), url(../imgs/bg-masthead.jpg) ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     text-align: center;
+ }
+
+ header .row{
+     padding: 200px 100px;
+     box-sizing: border-box;
+     
+
+ }
+
+ header h1{
+     color: white;
+     font-family: 'Merriweather', serif;
+     font-weight: 700;
+     font-size: 3.5rem;
+ }
+
+ .underline{
+     display: inline-block;
+     width: 54px;
+     border: 2px solid #f4623a;
+     margin-top: 30px 0;
+
+ }
+
+ header p{
+    color:rgba(255,255,255,0.75);
+     font-family: 'Merriweather', serif;
+     font-weight: 300;
+     font-size: 1.15rem;
+     line-height: 1.5;
+     padding: 0 115px; 
+ }
+
+ header #heading-link{
+    display: inline-block;
+    padding: 25px 35px;
+    background-color:  #f4623a;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 50px; 
+    border-radius: 50px;
+    word-spacing: 3px;
+ }
+
+ header #heading-link:hover{
+     background: #f24516;
+ }
+
+ /* section information */
+
+ section#section-info{
+     width: 100%;
+     background-color: #f4623a;
+     padding: 150px 0;
+
+ }
+
+ section#section-info .row{
+     text-align: center;
+
+ }
+section#section-info h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+
+}
+section#section-info span{
+    display: inline-block;
+    margin: 30px 0;
+    border: 2px solid white;
+    width: 50px;
+}
+
+section#section-info p{
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.5) ;
+    padding: 0 210px;
+
+}
+section#section-info a{
+    display: inline-block;
+    margin: 30px 0;
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 25px 45px;
+    background: #f8f9fa;
+    color:#212529;
+    border-radius: 50px;  
+}
+
+section#section-info a:hover{
+    background: #e2e6ea;
+
+}
+
+/* Services Section */
+
+section#services{
+    width:100%;
+}
+section#services .row{
+    width: 100%;
+    padding:150px 0;
+    text-align: center;
+}
+
+section#services h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:2rem;
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+
+section#services .service-items{
+    width: 100%;
+
+}
+
+section#services .service-items .item{
+    display: inline-block;
+    width:24%;
+    padding:30px 10px;
+    box-sizing: border-box;
+}
+section#services .item .fas{
+    color:#f4623a;
+    font-size:4rem;
+}
+section#services .item h3{
+    margin-top:30px;
+    margin-bottom:20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+section#services .item p{
+    font-family: 'Merriweather', serif;
+    color:#6c757d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* portfolio */
+
+section#portfolio{
+    width:100%;
+}
+section#portfolio ul{
+    width:100%;
+    list-style: none;
+
+}
+section#portfolio ul li{
+    width:33.3%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 0;
+    cursor: pointer;
+}
+section#portfolio ul li img{
+    width:100%;
+}
+section#portfolio .port-hover{
+    position: absolute;
+    top:0;
+    left: 0;
+    line-height: normal;
+    width:100%;
+    height: 100%;;
+    text-align: center;
+    box-sizing: border-box;
+    padding:100px 0;
+    background:rgba(255, 60, 30,0.7);
+    display: none;
+} 
+
+section#portfolio .port-hover h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color:rgba(255,255,255,0.5);
+    text-transform: uppercase;
+}
+section#portfolio .port-hover h2{
+    font-family: 'Merriweather', serif;
+    font-size:1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:white;
+}
+section#portfolio ul li:hover .port-hover{
+    display: block;
+}
+
+/* Download */
+section#download{
+    width: 100%;
+    background:#343a40;
+    padding:150px 0;
+}
+section#download .row{
+    text-align: center;
+}
+section#download h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color:white;
+}
+section#download a{
+    display: inline-block;
+    margin-top: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:0.85rem;
+    font-weight: 700;
+    background:#f8f9fa;
+    color:#212529;
+    padding:25px 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+section#download a:hover{
+    background:#e2e6ea;
+}
+
+/* Contact */
+section#contact{
+    width:100%;
+}
+section#contact .row{
+    text-align: center;
+    padding:150px 0;
+}
+section#contact h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+section#contact p{
+    font-family: 'Merriweather', serif;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#6c757d;
+    padding:0 210px;
+}
+section#contact ul{
+    width:100%;
+    list-style: none;
+    padding:50px 0;
+}
+section#contact ul li{
+    display: inline-block;
+    width:35%;
+}
+section#contact ul p{
+    padding:0;
+    margin-top:20px;
+    font-family: 'Merriweather', serif;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 1.5;
+   
+}
+section#contact ul i{
+    color:#6c757d;
+    font-size:3rem;
+}
+
+/* Footer */
+footer{
+    padding:60px 0;
+    background:#f8f9fa;
+    text-align: center;
+}
+footer p{
+    font-family: 'Merriweather', serif;
+    font-size:0.8rem;
+    font-weight: 400;
+    color:#6c757d;
+}
